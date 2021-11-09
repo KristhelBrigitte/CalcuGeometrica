@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B75ADFA3-0DC2-4985-B13F-ABC4154741A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Calculadora_Geometrica</RootNamespace>
+    <AssemblyName>Calculadora Geometrica</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cilindro.cs" />
+    <Compile Include="Cono.cs" />
+    <Compile Include="Cubo.cs" />
+    <Compile Include="Esfera.cs" />
+    <Compile Include="Figura.cs" />
+    <Compile Include="FrmHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHistorial.Designer.cs">
+      <DependentUpon>FrmHistorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCilindro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCilindro.Designer.cs">
+      <DependentUpon>FrmCilindro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCono.Designer.cs">
+      <DependentUpon>FrmCono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCubo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCubo.Designer.cs">
+      <DependentUpon>FrmCubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEsfera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEsfera.Designer.cs">
+      <DependentUpon>FrmEsfera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrtoedro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrtoedro.Designer.cs">
+      <DependentUpon>FrmOrtoedro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPiramide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPiramide.Designer.cs">
+      <DependentUpon>FrmPiramide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Octaedro Regular.cs" />
+    <Compile Include="FrmOctaedro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOctaedro.Designer.cs">
+      <DependentUpon>FrmOctaedro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ortoedro.cs" />
+    <Compile Include="Piramide.cs" />
+    <Compile Include="Prisma recto.cs" />
+    <Compile Include="FrmPrisma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrisma.Designer.cs">
+      <DependentUpon>FrmPrisma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TetraedoRegular.cs" />
+    <Compile Include="FrmTetraedro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTetraedro.Designer.cs">
+      <DependentUpon>FrmTetraedro.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmCilindro.resx">
+      <DependentUpon>FrmCilindro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCono.resx">
+      <DependentUpon>FrmCono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCubo.resx">
+      <DependentUpon>FrmCubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEsfera.resx">
+      <DependentUpon>FrmEsfera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHistorial.resx">
+      <DependentUpon>FrmHistorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOctaedro.resx">
+      <DependentUpon>FrmOctaedro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrtoedro.resx">
+      <DependentUpon>FrmOrtoedro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPiramide.resx">
+      <DependentUpon>FrmPiramide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrisma.resx">
+      <DependentUpon>FrmPrisma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmTetraedro.resx">
+      <DependentUpon>FrmTetraedro.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
