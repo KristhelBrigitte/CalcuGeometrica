@@ -20,10 +20,15 @@ namespace Calculadora_Geometrica
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            PrismaRecto pris = new PrismaRecto(double.Parse(txtAltura.Text), double.Parse(txtLadoB.Text), double.Parse(txtAp.Text),int.Parse(txtLados.Text));
+            PrismaRecto pris = new PrismaRecto();
+            pris.LadoBase = double.Parse(txtLadoB.Text);
+            pris.Altura = double.Parse(txtAltura.Text);
+            pris.Apotema = double.Parse(txtAp.Text);
+            pris.CantidadLados = int.Parse(txtLados.Text);
             txtArea.Text = pris.CalcularArea().ToString();
+
             txtVol.Text = pris.CalcularVolumen().ToString();
-          //  global.agregarRegistro("Figura='Prisma' Altura = " + txtAltura.Text + " Lado base=" + txtLadoB.Text + "Apotema= "+ txtAp.Text +" # Lados="+ txtLados.Text +" Area = " + txtArea.Text + " Volumen=" + txtVol.Text);
+            global.agregarRegistro(pris);
 
         }
     }

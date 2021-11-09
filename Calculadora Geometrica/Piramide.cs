@@ -11,8 +11,8 @@ namespace Calculadora_Geometrica
        double ladoBase;
        double altura;
 
-        public double LadoBase { get; set; }
-        public double Altura { get; set; }
+        public double LadoBase {get; set;}
+        public double Altura { get; set;}
 
 
         public override double CalcularArea()

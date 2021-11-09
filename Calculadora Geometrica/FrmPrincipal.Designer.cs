@@ -53,8 +53,8 @@ namespace Calculadora_Geometrica
             this.historialToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(17, 5, 0, 5);
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 46);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(13, 5, 0, 5);
+            this.menuStrip1.Size = new System.Drawing.Size(1048, 46);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,63 +86,63 @@ namespace Calculadora_Geometrica
             // esferaToolStripMenuItem
             // 
             this.esferaToolStripMenuItem.Name = "esferaToolStripMenuItem";
-            this.esferaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.esferaToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.esferaToolStripMenuItem.Text = "Esfera";
             this.esferaToolStripMenuItem.Click += new System.EventHandler(this.esferaToolStripMenuItem_Click);
             // 
             // piramideToolStripMenuItem
             // 
             this.piramideToolStripMenuItem.Name = "piramideToolStripMenuItem";
-            this.piramideToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.piramideToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.piramideToolStripMenuItem.Text = "Piramide";
             this.piramideToolStripMenuItem.Click += new System.EventHandler(this.piramideToolStripMenuItem_Click);
             // 
             // tetraedoRegularToolStripMenuItem
             // 
             this.tetraedoRegularToolStripMenuItem.Name = "tetraedoRegularToolStripMenuItem";
-            this.tetraedoRegularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tetraedoRegularToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.tetraedoRegularToolStripMenuItem.Text = "Tetraedo Regular";
             this.tetraedoRegularToolStripMenuItem.Click += new System.EventHandler(this.tetraedoRegularToolStripMenuItem_Click);
             // 
             // octaedroRegularToolStripMenuItem
             // 
             this.octaedroRegularToolStripMenuItem.Name = "octaedroRegularToolStripMenuItem";
-            this.octaedroRegularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.octaedroRegularToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.octaedroRegularToolStripMenuItem.Text = "Octaedro Regular";
             this.octaedroRegularToolStripMenuItem.Click += new System.EventHandler(this.octaedroRegularToolStripMenuItem_Click);
             // 
             // cuboToolStripMenuItem
             // 
             this.cuboToolStripMenuItem.Name = "cuboToolStripMenuItem";
-            this.cuboToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cuboToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.cuboToolStripMenuItem.Text = "Cubo";
             this.cuboToolStripMenuItem.Click += new System.EventHandler(this.cuboToolStripMenuItem_Click);
             // 
             // cilindroToolStripMenuItem
             // 
             this.cilindroToolStripMenuItem.Name = "cilindroToolStripMenuItem";
-            this.cilindroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cilindroToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.cilindroToolStripMenuItem.Text = "Cilindro";
             this.cilindroToolStripMenuItem.Click += new System.EventHandler(this.cilindroToolStripMenuItem_Click);
             // 
             // prismaRectoToolStripMenuItem
             // 
             this.prismaRectoToolStripMenuItem.Name = "prismaRectoToolStripMenuItem";
-            this.prismaRectoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.prismaRectoToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.prismaRectoToolStripMenuItem.Text = "Prisma Recto";
             this.prismaRectoToolStripMenuItem.Click += new System.EventHandler(this.prismaRectoToolStripMenuItem_Click);
             // 
             // conoToolStripMenuItem
             // 
             this.conoToolStripMenuItem.Name = "conoToolStripMenuItem";
-            this.conoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conoToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.conoToolStripMenuItem.Text = "Cono";
             this.conoToolStripMenuItem.Click += new System.EventHandler(this.conoToolStripMenuItem_Click);
             // 
             // ortoedroToolStripMenuItem
             // 
             this.ortoedroToolStripMenuItem.Name = "ortoedroToolStripMenuItem";
-            this.ortoedroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ortoedroToolStripMenuItem.Size = new System.Drawing.Size(281, 36);
             this.ortoedroToolStripMenuItem.Text = "Ortoedro";
             this.ortoedroToolStripMenuItem.Click += new System.EventHandler(this.ortoedroToolStripMenuItem_Click);
             // 
@@ -156,15 +156,15 @@ namespace Calculadora_Geometrica
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1048, 677);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Calculadora Geometrica";

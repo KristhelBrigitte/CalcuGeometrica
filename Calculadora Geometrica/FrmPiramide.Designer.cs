@@ -42,7 +42,7 @@ namespace Calculadora_Geometrica
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(47, 190);
+            this.btnCalcular.Location = new System.Drawing.Point(104, 146);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 0;
@@ -52,28 +52,28 @@ namespace Calculadora_Geometrica
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(47, 116);
+            this.txtAltura.Location = new System.Drawing.Point(104, 72);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(100, 20);
             this.txtAltura.TabIndex = 1;
             // 
             // txtBase
             // 
-            this.txtBase.Location = new System.Drawing.Point(47, 164);
+            this.txtBase.Location = new System.Drawing.Point(104, 120);
             this.txtBase.Name = "txtBase";
             this.txtBase.Size = new System.Drawing.Size(100, 20);
             this.txtBase.TabIndex = 3;
             // 
             // txtArea
             // 
-            this.txtArea.Location = new System.Drawing.Point(47, 240);
+            this.txtArea.Location = new System.Drawing.Point(104, 196);
             this.txtArea.Name = "txtArea";
             this.txtArea.Size = new System.Drawing.Size(100, 20);
             this.txtArea.TabIndex = 4;
             // 
             // txtVolumen
             // 
-            this.txtVolumen.Location = new System.Drawing.Point(47, 297);
+            this.txtVolumen.Location = new System.Drawing.Point(104, 253);
             this.txtVolumen.Name = "txtVolumen";
             this.txtVolumen.Size = new System.Drawing.Size(100, 20);
             this.txtVolumen.TabIndex = 5;
@@ -81,7 +81,7 @@ namespace Calculadora_Geometrica
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 100);
+            this.label2.Location = new System.Drawing.Point(101, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 7;
@@ -90,7 +90,7 @@ namespace Calculadora_Geometrica
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 148);
+            this.label3.Location = new System.Drawing.Point(101, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 13);
             this.label3.TabIndex = 8;
@@ -99,7 +99,7 @@ namespace Calculadora_Geometrica
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 224);
+            this.label4.Location = new System.Drawing.Point(101, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 9;
@@ -108,7 +108,7 @@ namespace Calculadora_Geometrica
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(44, 281);
+            this.label5.Location = new System.Drawing.Point(101, 237);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(54, 13);
             this.label5.TabIndex = 10;
